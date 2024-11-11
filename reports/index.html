@@ -713,7 +713,7 @@ Licensed under the MIT license.
         plot.hooks = hooks;
 
         // initialize
-        initPlugins(plot);
+        initPlugins();
         parseOptions(options_);
         setupCanvases();
         setData(data_);
@@ -4262,7 +4262,7 @@ can just fix the size of their placeholders.
 			}
 			html, body {
 				margin: 0;
-				font-family: "Arial";
+				font-family: "Arial", sans-serif;
 			}
 			body > div {
 				margin: 0 auto;
